@@ -14,7 +14,7 @@ from time import clock
 import urllib2, bs4, os, re
 
 
-starturl="http://rmrbw.info/"
+starturl="http://www.xinhuanet.com/english/home.htm"
 shareMonthQueue=Queue.Queue()  #存储月份url的公共队列
 shareReportQueue=Queue.Queue() #c存储新闻url的公共队列
 _WORK_MONTH_THREAD_NUM=3       #用于处理月份url的爬虫数量
